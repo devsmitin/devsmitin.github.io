@@ -1,4 +1,4 @@
 # imsmit
 
-web resume created using custom css framework 'Rock-Solid CSS'
+web-resume created using css-core!
 More on that later...
