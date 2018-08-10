@@ -26,7 +26,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
     <link rel="manifest" href="icons/manifest.json">
     <meta name="msapplication-TileColor" content="#ffee58">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffee58">
 
     <style type="text/css">
@@ -45,7 +45,7 @@
     <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-            navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
                 // Registration was successful
                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
             },
@@ -205,11 +205,7 @@
                                         <div class="col sm-12">
                                             <h6><a href="https://imsmit.github.io/css-core/" target="_blank" class="yellow-text text-dark-2 link-hover">CSS-Core - custom framework</a></h6>
                                             <h6 class="light">Custom CSS framework similar to Bootstrap, Skeleton css, Pure, etc.</h6>
-                                            <span class="yellow-text text-dark-2">Ongoing</span>
-                                            <hr/>
-                                            <h6><a href="http://www.thevalandshop.com" target="_blank" class="yellow-text text-dark-2 link-hover">The Valand Shop</a></h6>
-                                            <h6 class="light">Design/Development</h6>
-                                            <span class="yellow-text text-dark-2">Feb 2016 - June 2016</span>
+                                            <span class="yellow-text text-dark-2">Paused</span>
                                         </div>
                                     </div>
                                 </div>
